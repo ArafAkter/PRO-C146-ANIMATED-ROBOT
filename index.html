@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #00ddff">
+
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+
+        <!--Sky-->
+        <a-sky>
+            
+        </a-sky>
+
+        <!--Sun-->
+      
+
+        <!--Mercury-->
+      
+
+        <!--Venus-->
+     
+
+        <!--Earth-->
+
+
+        <!--Mars-->
+        
+
+        <!--Jupiter-->
+   
+
+        <!--Saturn-->
+      
+
+        
+    
+
+        <!--Neptune-->
+        <a-entity position="-0.63 0.1 0.9" rotation="0 0 0"
+       >
+            <a-sphere position="-0.63 0.1 0.9" radius="3" color="#333333"></a-sphere> 
+            
+
+        </a-entity>
+<!--Uranus-->
+        <a-entity position="-0.63 0.5 0.9" rotation="0 0 0"
+       >
+            <a-cylinder position="-0.63 0.5 0.9" height="10" color="gold" rotation="0 0 90" width="0.001"></a-cylinder> 
+            
+
+        </a-entity>
+
+        <a-entity position="-0.63 0.1 0.9" rotation="0 0 0"
+        animation="property: position; from: -0.35 2.5 0.9;to: -0.7 2.5 0.9;dir:alternate;loop: true; dur: 1000">
+            <a-cone position="-0.63 0.1 0.9" height="10" color="silver" width="0.05"></a-cone> 
+            
+
+        </a-entity>
+
+        <a-entity position="-0.63 1.5 0.9" rotation="0 0 0"
+       >
+            <a-sphere position="-0.63 1.5 0.9" radius="2" color="maroon"></a-sphere> 
+
+
+            
+
+        </a-entity>
+
+        <a-entity position="-0.15 1.5 1.8" rotation="0 0 0"
+        animation="property: position; from: -0.15 1.5 1.8;to: -0.15 1.75 1.8;dir:alternate;loop: true; dur: 1000">
+            <a-sphere position="-0.15 1.5 1.8" radius="0.1" color="black"></a-sphere> </a-entity>
+
+            <a-entity position="-1.1 1.5 1.8" rotation="0 0 0"
+            animation="property: position; from: -1.1 1.5 1.8;to: -1.1 1.75 1.8;dir:alternate;loop: true; dur: 1000">
+                <a-sphere position="-1.1 1.5 1.8" radius="0.1" color="black"></a-sphere> </a-entity>
+    </a-scene>
+</body>
+
+</html>
